@@ -1,0 +1,64 @@
+*{ MARGIN:0px;
+    Padding: 0px;
+    box-sizing: border-box;
+    <style>
+     @import url ('https://fonts.googleapis.com/css2? family = Noto + Sans + Display: ital, wght @ 0,300; 0,400; 1,300 & family = Roboto: wght @ 300; 500 & display = troca');
+    </style>}
+    
+    .flex-container {
+        display: flex;
+        justify-content: space-evenly;
+        }
+    
+    .flex-itens {
+        border: 20px;
+        padding: 20px;
+        }
+    
+    .Adote {
+        font-size: 20px;
+        flex-grow: 2;
+        background-color: cadetblue;
+        color: indigo;
+        }
+    
+    .Home {
+        font-size: 15px;
+        background-color: indigo;
+        color: cadetblue;
+    }
+    
+    .Sobre {
+        font-size: 15px;
+        background-color: indigo;
+        color: cadetblue;
+    }
+    
+    .Contato {
+        font-size: 15px;
+        background-color: indigo;
+        color: cadetblue;
+    }
+    
+    @media (max-width: 600px)
+    { 
+        .Adote {
+            display: none;
+        }
+        .flex-itens {
+            flex-direction: column;}
+        }
+    
+    .Adote:hover {
+      font-size: 40px;
+    }
+    
+    .Home:hover {
+      color: white;
+      }
+    .Sobre:hover {
+      color: white;
+    }
+    .Contato:hover {
+      color: white;
+    }
