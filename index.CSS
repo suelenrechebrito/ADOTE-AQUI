@@ -5,6 +5,10 @@
      @import url ('https://fonts.googleapis.com/css2? family = Noto + Sans + Display: ital, wght @ 0,300; 0,400; 1,300 & family = Roboto: wght @ 300; 500 & display = troca');
     </style>}
     
+
+body {
+    background-color:lightblue;
+}
     .flex-container {
         display: flex;
         justify-content: space-evenly;
@@ -40,6 +44,10 @@
         color: cadetblue;
     }
     
+    #banner { width: 200px;
+            height: 200px;
+            margin:25%; margin-left: 40%;}
+
     @media (max-width: 600px)
     { 
         .Adote {
