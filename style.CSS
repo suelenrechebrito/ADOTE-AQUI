@@ -1,15 +1,19 @@
-*{ MARGIN:0px;
+* { MARGIN:0px;
     Padding: 0px;
     box-sizing: border-box;
-    <style>
-     @import url ('https://fonts.googleapis.com/css2? family = Noto + Sans + Display: ital, wght @ 0,300; 0,400; 1,300 & family = Roboto: wght @ 300; 500 & display = troca');
-    </style>}
+    font-family:Georgia, 'Times New Roman', Times, serif;}
     
 
 body {
     background-color:lightblue;
 }
-    .flex-container {
+
+h1 {text-align: center;
+    font-size: 40px;
+    color:midnightblue;
+    margin-top: 30px;}
+
+.flex-container {
         display: flex;
         justify-content: space-evenly;
         }
@@ -43,10 +47,19 @@ body {
         background-color: indigo;
         color: cadetblue;
     }
+
+    .box {display: flex;
+        justify-content: center;
+        width: auto;
+        height:auto;
+        margin: 30px;
+        flex-wrap: wrap; }
     
-    #banner { width: 200px;
+    img {   margin: 10px; 
+            width: 200px;
             height: 200px;
-            margin:25%; margin-left: 40%;}
+            border: 2px solid indigo;
+            border-radius: 50px;}
 
     @media (max-width: 600px)
     { 
@@ -59,6 +72,7 @@ body {
     
     .Adote:hover {
       font-size: 40px;
+      transition: 0.5s;
     }
     
     .Home:hover {
@@ -70,3 +84,14 @@ body {
     .Contato:hover {
       color: white;
     }
+
+    .banner:hover {
+        width: 250px;
+        height: 250px;
+        transition: 0.5s;
+    }
+
+    footer { background-color: indigo;
+        color:lightblue;
+        font-size: 15px;
+        text-align: center;}
